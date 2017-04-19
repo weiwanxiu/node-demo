@@ -3,15 +3,27 @@ var path = require("path");
 
 // 判断是否绝对路径
 console.log('isAbsolute : ' + path.isAbsolute('/Users/wwx/workspace/node-demo/path.js'));
+// sAbsolute : true
 
 // 获取路径中的文件夹部分
 console.log('dirname : ' + path.dirname('/Users/wwx/workspace/node-demo/path.js'));
+//dirname : /Users/wwx/workspace/node-demo
 
 // 路径中文件的后缀名
 console.log('extname : ' + path.extname('/Users/wwx/workspace/node-demo/path.js'));
+//extname : .js
 
 // 将路径中的字符串转换为对象
 console.log('parse : \n' ,path.parse('/Users/wwx/workspace/node-demo/path.js'));
+/*parse :
+ { root: '/',
+  dir: '/Users/wwx/workspace/node-demo',
+  base: 'path.js',
+  ext: '.js',
+  name: 'path' }
+*/
+
+
 
 
 
