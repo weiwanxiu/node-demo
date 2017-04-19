@@ -27,6 +27,6 @@ console.error("err")
 
 console.dir("dir")
 
+//process
 var process=require("process")
-
 console.log(process)
